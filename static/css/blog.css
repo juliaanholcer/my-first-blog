@@ -1,5 +1,6 @@
 h1 a {
     color: #FCA205;
+
     font-family: "Lobster";
 }
 
@@ -8,15 +9,18 @@ body {
 }
 
 .page-header {
-    background-color: #ff9400;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
+
+    background-color: #ff9400;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
     text-decoration: none;
+
+    color: #ffffff;
+
+    font-size: 36pt;
 }
 
 .content {
@@ -29,6 +33,7 @@ h1, h2, h3, h4 {
 
 .date {
     float: right;
+
     color: #828282;
 }
 
@@ -41,10 +46,13 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
     float: right;
-    font-size: 26pt;
+
     margin-right: 20px;
+
+    color: #ffffff;
+
+    font-size: 26pt;
 }
 
 .post {
@@ -59,5 +67,17 @@ p {
 }
 .edit {
   float: right;
+
   margin-left: 10px;
+}
+
+.form_label {
+  font-family: "Lobster";
+  font-weight: lighter;
+  padding-right: 10px;
+
+}
+
+.comment {
+  margin: 20px 0px 20px 20px;
 }
